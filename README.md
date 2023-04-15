@@ -33,13 +33,13 @@ Presentation  movie: [TBD(LIB)]
 
 | Title | Usage |
 | --- | --- |
-| Account Abstraction |  [TBD(LIB)] |
-| Airstack |  [TBD(LIB)] |
-| UMA |  [TBD(LIB)] |
-| SnapShot |  [TBD(LIB)] |
-| OpenAI |  [TBD(LIB)] |
-| Hardhat |  [TBD(LIB)] |
-| Web3Auth |  [TBD(LIB)] |
+| Account Abstraction |  To provide users with a no-cost gas experience |
+| Airstack | To obtain past Mint information and provide a safe and secure experience for users |
+| UMA |  To implement a campaign to Giveaway safer and more secure NFTs through consensus on the use of OnSnap. |
+| SnapShot |  Same as above |
+| OpenAI |  To produce a unique and interesting NFT |
+| Hardhat |  To implement the contract productively |
+| Web3Auth |  To provide a smooth experience by not requiring users to have a private key through social authentication |
 
 ## Deployed contract
 
@@ -59,5 +59,4 @@ Presentation  movie: [TBD(LIB)]
 ## Others
 
 ### The repo of Generative AI NFT
-
-[TBD]
+https://github.com/AAAirdropper/ETHGlobalTokyoNFT
