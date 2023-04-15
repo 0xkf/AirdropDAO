@@ -29,17 +29,26 @@ Solution
 ・A situation where there is no need to manage private keys
 
 ### Architecture
-
 [TBD]
+
+### Unique Point
+[TBD]
+We can onboard new user who doesn't have wallet yet.
+the airdropped token is selected by community,using UMA,sbapshot voting,called Osnap.
 
 
 ## User Flow
 
 [TBD]
+１.visit website.
+２.Authenticate some social
+３.push button to get some ft or NFT
+
 
 ## Future Work
-
 [TBD]
+1.realize sybil attack resistance, selecting some ID solution.
+2.find ecosystem partners
 
 ## TechStack
 
