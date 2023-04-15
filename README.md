@@ -1,9 +1,11 @@
 # AirdropDAO
 
 ## Summary
+[TBD]
+Airdrop DAO will onboard next 1 billion people.
+We realize super easy UX to have Wallet.
+We send Account Abstraction Wallet when user authorized some social account,
 
-Mitsuba is a cross-chain voting system.
-Messaging allows voting from multiple chains to be combined into a single proposal.
 
 Only Demo movie [TBD(LIB)]
 
@@ -12,14 +14,24 @@ Presentation  movie: [TBD(LIB)]
 ## Problem
 
 [TBD]
+Problem
 
+It is very difficult to start crypto.
+
+・If you become interested in crypto, you need to set up MetaMask.
+・You need to acquire tokens on a CEX and transfer them to your wallet.
+・You need to connect your wallet and sign in on Dapps.
 ## Solution
-
-[TBD].
+[TBD]
+Solution
+・Easy login using Google authentication or similar methods
+・Transactions without the need for gas fees
+・A situation where there is no need to manage private keys
 
 ### Architecture
 
 [TBD]
+
 
 ## User Flow
 
