@@ -1,0 +1,21 @@
+{
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "typeRoots": ["./node_modules/@types"],
+    "outDir": "dist",
+    "jsx": "react-jsx",
+    "strict": true,
+
+    // generate .d.ts files for package.json types field
+    "declaration": true
+  },
+  "files": [],
+  "include": ["./src", "./src/**/*.ts", "./src/**/.tsx", "src/types"],
+  "exclude": ["node_modules"]
+}
