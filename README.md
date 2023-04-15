@@ -8,7 +8,8 @@ We realize super easy UX to have Wallet.
 We send Account Abstraction Wallet when user authorized some social account,
 
 
-Only Demo movie [TBD(LIB)]
+Only Demo movie:
+https://www.loom.com/share/a97bf1139a2942a7965a9acdc448a35b
 
 Presentation  movie: [TBD(LIB)]
 
