@@ -1,4 +1,6 @@
-# AirdropDAO
+![logo](docs/airdrop-dao.png)
+
+# AirdropDAO - Account Abstraction Wallet for Airdrop
 
 ## Summary
 Airdrop DAO will onboard next 1 billion people.
