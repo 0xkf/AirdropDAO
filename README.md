@@ -30,6 +30,16 @@ Solution
 
 ### Architecture
 [TBD]
+Please find the English translation below.
+
+Architecture
+
+・By using Google Auth for login, we automatically provide users with an Account Abstraction Wallet, making it easy to obtain a wallet. Users can acquire NFTs and FTs with a single click, even if they don't have a wallet.
+
+・During this process, users don't have to pay gas fees due to gasless transactions, and since the tokens have gone through a community audit, there is less concern about receiving scam tokens.
+
+・Companies that want to expand their community can propose detailed information about airdrop in a proposal, which will help them learn whether a token airdrop is feasible or not.
+
 
 ### Unique Point
 [TBD]
@@ -47,8 +57,9 @@ the airdropped token is selected by community,using UMA,sbapshot voting,called O
 
 ## Future Work
 [TBD]
-1.realize sybil attack resistance, selecting some ID solution.
-2.find ecosystem partners
+1.Realize sybil attack resistance, selecting some ID solution.
+2.We will start advertisement function for the company that want to sell some product and for users that want to trade without paying gas.
+3.Find ecosystem partners.
 
 ## TechStack
 
