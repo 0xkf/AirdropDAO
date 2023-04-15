@@ -1,4 +1,6 @@
-# AirdropDAO
+![logo](docs/airdrop-dao.png)
+
+# AirdropDAO - Account Abstraction Wallet for Airdrop
 
 ## Summary
 
