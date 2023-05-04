@@ -58,6 +58,7 @@ async function fetchData() {
 
 const PlaceHolderApp = (props: PlaceHolderProps) => {
   const [extractedData, setExtractedData] = useState<NftUser[]>([]);
+  const [hasFollowed, setHasFollowed] = useState(false);
 
   useEffect(() => {
     fetchData()
@@ -165,8 +166,11 @@ const PlaceHolderApp = (props: PlaceHolderProps) => {
                         onSelect={(value) => props.selectTime(value)}
                       />
                     </div>
-                    
-
+                      <button onClick={()=> setHasFollowed(true)} className='btn p-2 bg-twitter border-0 m-2'>
+                    <a href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fpublish.twitter.com%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Efollow%7Ctwgr%5Ekyoko1_japan&region=follow_link&screen_name=kyoko1_japan" className="text-white" data-size="large" data-show-count="false">
+                      Follow @kyoko1_japan
+                      </a>
+                      </button>
                     { <button
                       style={{
                         borderColor: "unset",
@@ -175,6 +179,7 @@ const PlaceHolderApp = (props: PlaceHolderProps) => {
                       }}
                       className="btn btn-primary mt-2 bg-purple-500"
                       onClick={() => props.mint()}
+                      disabled={!hasFollowed}
                     >
                       Mint
                     </button> }
