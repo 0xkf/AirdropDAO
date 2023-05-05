@@ -14,6 +14,9 @@ module.exports = {
       backgroundImage: {
         "purple-gradient": "linear-gradient(to bottom, #9F7AEA, #E7E0F9)",
       },
+      colors: {
+        'twitter': '#1DA1F2',
+    }
     },
   },
   plugins: [require("daisyui")],

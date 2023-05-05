@@ -310,7 +310,7 @@ function App() {
   useTitle("ETHGlobal Tokyo Gasless Minting");
 
   return (
-    <div className="App bg-purple-gradient bg-slate-600 h-screen flex flex-col content-center">
+    <div className="App bg-twitter bg-slate-600 h-screen flex flex-col content-center">
       <NavBar />
       <div className="flex justify-center">
         {isExploding && <ConfettiExplosion {...largeProps} />}
