@@ -167,8 +167,8 @@ const PlaceHolderApp = (props: PlaceHolderProps) => {
                       />
                     </div>
                       <button onClick={()=> setHasFollowed(true)} className='btn p-2 bg-twitter border-0 m-2'>
-                    <a href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fpublish.twitter.com%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Efollow%7Ctwgr%5Ekyoko1_japan&region=follow_link&screen_name=kyoko1_japan" className="text-white" data-size="large" data-show-count="false">
-                      Follow @kyoko1_japan
+                    <a href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fpublish.twitter.com%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Efollow%7Ctwgr%5Egelatonetwork&region=follow_link&screen_name=gelatonetwork" className="text-white" data-size="large" data-show-count="false">
+                      Follow @gelatonetwork
                       </a>
                       </button>
                     { <button

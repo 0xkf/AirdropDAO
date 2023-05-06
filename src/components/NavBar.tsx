@@ -9,7 +9,7 @@ interface NavBarProps {
 const NavBar = (props: NavBarProps) => {
   return (
     <div className="navbar bg-base-400">
-      <div className="flex-1">
+      {/* <div className="flex-1">
         <a href="/" className="btn btn-ghost normal-case text-xl">
           <svg width="148" height="32" viewBox="0 0 148 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M23.1656 26.5248C19.4137 28.437 15.0036 27.6719 12.106 24.9397L10.0664 25.9786C13.5891 29.784 19.336 30.9591 24.1854 28.4879C29.0347 26.0168 31.4613 20.6773 30.4542 15.5912L28.3867 16.6453C28.8934 20.5958 26.92 24.6125 23.1681 26.5248H23.1656Z" fill="url(#paint0_linear_9_75)"/>
@@ -38,6 +38,9 @@ const NavBar = (props: NavBarProps) => {
             </defs>
           </svg>
         </a>
+      </div> */}
+      <div className="flex-1">
+        <img className="h-12" src="/AAWallet-logo-white.png" alt="AAWallet"/>
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">

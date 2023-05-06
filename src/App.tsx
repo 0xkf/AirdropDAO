@@ -307,7 +307,7 @@ function App() {
     init();
   }, [web3AuthProvider]);
 
-  useTitle("ETHGlobal Tokyo Gasless Minting");
+  useTitle("AAWallet");
 
   return (
     <div className="App bg-twitter bg-slate-600 h-screen flex flex-col content-center">
